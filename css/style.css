@@ -37,9 +37,22 @@
   grid-template-rows: 0.1fr 1fr;
 }
 
-.top-left-header > form {
+.top-left-header {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 0.2fr 3fr;
+  padding: 50px;
+}
+
+.top-left-header input {
+  border-radius: 25px;
+  background-color: #e2e8f0;
+  border-style: none;
+}
+
+.search-button {
+  background-color: white;
+  border-style: none;
+  width: 2vw;
 }
 
 .top-right-header {
