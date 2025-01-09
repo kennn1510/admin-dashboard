@@ -59,6 +59,7 @@
 .top-right-header {
   display: grid;
   grid-template-columns: 0.1fr 0.1fr 1fr;
+  padding: 0 3vw;
 }
 
 .bell-button {
