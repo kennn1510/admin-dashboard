@@ -28,6 +28,7 @@
 }
 .sidebar p {
   font-size: 2vw;
+  font-weight: bold;
 }
 
 .header {
@@ -57,7 +58,18 @@
 
 .top-right-header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0.1fr 0.1fr 1fr;
+}
+
+.bell-button {
+  background-color: white;
+  border-style: none;
+  width: 2vw;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .bottom-left-header {
   display: grid;
@@ -77,7 +89,7 @@
 }
 .bottom-right-header button {
   grid-row: 2/3;
-  border-radius: 30%;
+  border-radius: 25px;
   background-color: #1992d4;
   color: white;
   border-style: none;
