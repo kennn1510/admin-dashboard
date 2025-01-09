@@ -146,6 +146,7 @@
   padding: 25px;
   border-left: 10px solid #f0b429;
   display: grid;
+  grid-template-rows: 0.1fr 0.1fr;
 }
 
 .project-icons {
@@ -154,6 +155,23 @@
   gap: 1vw;
 }
 
+.announcements > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: white;
+  border-radius: 15px;
+  gap: 40px;
+  padding: 20px;
+}
+.announcements > div > div {
+  padding: 0 20px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid lightgray;
+}
+.announcements > div > div:last-of-type {
+  border-bottom: none;
+}
 div > svg {
   width: 1.5vw;
 }
