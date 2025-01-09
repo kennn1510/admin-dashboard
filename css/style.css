@@ -119,6 +119,7 @@
 }
 
 .main-content {
+  padding: 25px;
   background-color: #e2e8f0;
   grid-row: 2/4;
   display: grid;
@@ -128,4 +129,8 @@
 
 .your-projects {
   grid-row: 1/3;
+}
+
+div > svg {
+  width: 3%;
 }
