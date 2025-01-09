@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 10fr;
+  grid-template-rows: 1fr 2fr;
 }
 
 .sidebar {
@@ -14,6 +14,33 @@
 
 .header {
   background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.top-left-header > form {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.top-right-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.bottom-left-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+.bottom-left-header > img {
+  grid-row: 1/3;
+}
+.bottom-right-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
 }
 
 .main-content {
