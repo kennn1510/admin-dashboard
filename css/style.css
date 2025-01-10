@@ -176,16 +176,26 @@
 
 .trend-box {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
 }
 .trend-box > div {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr;
+  gap: 5px;
 }
 .trend-box > div > img {
   grid-row: 1/3;
+  width: 5vw;
+}
+.trend-box > div > p:first-of-type {
+  display: flex;
+  align-items: end;
 }
 
 div > svg {
